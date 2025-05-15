@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318505049574",
+    "project_id": "train-mitra-f866e",
+    "storage_bucket": "train-mitra-f866e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318505049574:android:b80e6a5af1ec4c96d14a27",
+        "android_client_info": {
+          "package_name": "com.example.trainmitra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG_q46TByVyi0u2AMVyFKKBWicdQXjAnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

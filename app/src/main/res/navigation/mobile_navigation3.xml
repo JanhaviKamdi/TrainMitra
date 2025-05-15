@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/nav_report_issue">
+
+    <fragment
+        android:id="@+id/nav_report_issue"
+        android:name="com.example.trainmitra.ui.reportissue.ReportIssueFragment"
+        android:label="Report Issue"
+        tools:layout="@layout/fragment_report_issue" />
+
+    <fragment
+        android:id="@+id/nav_track_train"
+        android:name="com.example.trainmitra.ui.tracktrain.TrackTrainFragment"
+        android:label="Track Train"
+        tools:layout="@layout/fragment_track_train" />
+
+    <fragment
+        android:id="@+id/nav_crew_instructions"
+        android:name="com.example.trainmitra.ui.crewinstructions.CrewInstructionsFragment"
+        android:label="Crew Instructions"
+        tools:layout="@layout/fragment_crew_instructions" />
+
+    <fragment
+        android:id="@+id/nav_ticket_info"
+        android:name="com.example.trainmitra.ui.tickectinfo.TicketInfoFragment"
+        android:label="Ticket Info"
+        tools:layout="@layout/fragment_ticket_info" />
+
+    <fragment
+        android:id="@+id/nav_emergency_contacts"
+        android:name="com.example.trainmitra.ui.emergencycontacts.EmergencyContactsFragment"
+        android:label="Emergency Contacts"
+        tools:layout="@layout/fragment_emergency_contacts" />
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.trainmitra.ui.feedback.FeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.trainmitra.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>

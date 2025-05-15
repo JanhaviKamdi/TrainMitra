@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_report_issue"
+        android:title="@string/report_issue"
+        android:icon="@android:drawable/ic_menu_report_image" />
+
+    <item
+        android:id="@+id/nav_track_train"
+        android:title="@string/track_train"
+        android:icon="@android:drawable/ic_menu_search" />
+
+    <item
+        android:id="@+id/nav_crew_instructions"
+        android:title="@string/crew_instructions_chat_read_only"
+        android:icon="@android:drawable/ic_menu_send" />
+
+    <item
+        android:id="@+id/nav_ticket_info"
+        android:title="@string/ticket_info"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+    <item
+        android:id="@+id/nav_emergency_contacts"
+        android:title="@string/emergency_contacts"
+        android:icon="@android:drawable/ic_menu_call" />
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="@string/feedback"
+        android:icon="@android:drawable/ic_menu_edit" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/logout"
+        android:icon="@android:drawable/ic_lock_power_off" />
+</menu>
